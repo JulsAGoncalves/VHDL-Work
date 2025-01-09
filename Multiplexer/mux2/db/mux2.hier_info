@@ -1,0 +1,7 @@
+|mux2
+w2 => f.DATAB
+w3 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
