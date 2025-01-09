@@ -1,0 +1,32 @@
+|muxModified
+f <= mux3:inst2.f
+w0 => mux1:inst.w0
+w1 => mux1:inst.w1
+s => mux1:inst.s
+s => mux2:inst1.s
+w2 => mux2:inst1.w2
+w3 => mux2:inst1.w3
+s1 => mux3:inst2.s1
+
+
+|muxModified|mux3:inst2
+w4 => f~0.DATAB
+w5 => f~0.DATAA
+s1 => f~0.OUTPUTSELECT
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxModified|mux1:inst
+w0 => f~0.DATAB
+w1 => f~0.DATAA
+s => f~0.OUTPUTSELECT
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxModified|mux2:inst1
+w2 => f~0.DATAB
+w3 => f~0.DATAA
+s => f~0.OUTPUTSELECT
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
