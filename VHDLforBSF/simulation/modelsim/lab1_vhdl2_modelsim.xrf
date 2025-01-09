@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/student1/jagoncal/coe328/Lab 1/Lab1VHDL2/lab1_vhdl2.vhd
+source_file = 1, /home/student1/jagoncal/coe328/Lab 1/Lab1VHDL2/db/lab1_vhdl2.cbx.xml
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /CMC/tools/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = lab1_vhdl2
+instance = comp, \w2~I\, w2, lab1_vhdl2, 1
+instance = comp, \w4~I\, w4, lab1_vhdl2, 1
+instance = comp, \w3~I\, w3, lab1_vhdl2, 1
+instance = comp, \w1~I\, w1, lab1_vhdl2, 1
+instance = comp, \g~0\, g~0, lab1_vhdl2, 1
+instance = comp, \h~0\, h~0, lab1_vhdl2, 1
+instance = comp, \g~I\, g, lab1_vhdl2, 1
+instance = comp, \h~I\, h, lab1_vhdl2, 1
